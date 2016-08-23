@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="ender">
+        <img src="imagens/LogoPequeno.png" class="imgLogo" alt="">
+        <address>
+            Avenida Volta Redonda, 906<br> Tel: (21) 1234-5678<br>
+            <a href="mailto:contato@boladavez.com.br">contato@boladavez.com.br</a>
+        </address>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Bolas.html">Bolas</a></li>
+            <li><a href="Esportes.html">Esportes</a></li>
+            <li><a href="Cadastro.html">Cadastro</a></li>
+            <li><a href="Compras.html">Compras</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="#">
+            Cadastro
+            <fieldset>
+                <legend>Identificação</legend>
+
+                <div class="formLinha">
+                    <label for="email">E-mail:</label>
+                    <input class="inpGrande" type="text" name="email" value="" placeholder="exemplo@cederj.com.br" id="email" required><br>
+                </div>
+
+                <div class="mg-t-15 formLinha">
+
+                    <div class="colPri">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" value="" class="inpMedio" id="senha" placeholder="Senha" required>
+                    </div>
+
+                    <div class="elemDir">
+                        <label class="right-label" for="confirmacao">Confirme:</label>
+                        <input type="password" name="confirmacao" value="" class="inpMedio right-input" id="confirmacao" placeholder="Repita a Senha"
+                            required>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="formLinha">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" class="inpGrande" value="" placeholder="Johnny Smith" id="nome"><br>
+                </div>
+
+                <div class="mg-t-15 formLinha">
+                    <label id="lbEndereco" for="endereco">Endereço:</label>
+                    <textarea rows="10" cols=""></textarea>
+                </div>
+
+                <div class="mg-t-15 formLinha">
+                    <div class="colPri">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" value="" class="inpMedio" id="telefone" placeholder="(99) 9999-9999" id="telefone" required>
+                    </div>
+                    <div class="elemDir">
+                        <label class="right-label" for="celular">Celular:</label>
+                        <input type="tel" name="celular" value="" id="celular" class="inpMedio right-input" placeholder="(99) 99999-9999">
+                    </div>
+                </div>
+
+                <div class="mg-t-15 formLinha">
+                    <fieldset class="fsEsq">
+                        <legend>Nascimento:</legend>
+                        <input type="date" name="dataNascimento" value="" id="dataNascimento" min="1920-01-01" max="2016-12-31">
+                    </fieldset>
+                    
+                    <fieldset class="fsDir">
+                        <legend>Sexo:</legend>
+                        <input type="radio" name="sexo" value="M">Masculino
+                        <input type="radio" name="sexo" value="F">Feminino
+                    </fieldset>
+                </div>
+            </fieldset>
+
+            <div class="fsDir">
+                <button type="submit" value="Enviar">Enviar</button>
+                <button type="reset" valuye="Limpar">Limpar</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

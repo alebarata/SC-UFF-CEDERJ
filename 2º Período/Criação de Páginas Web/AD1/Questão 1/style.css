@@ -1,0 +1,41 @@
+
+
+.tg .tg-adjust {
+    vertical-align:top;
+    padding-top: 10px;
+    }
+
+body {
+    color: #FCD605;
+    background-color: #377254;
+    font-family: Verdana;
+}
+
+a {
+    color: #FCD605;
+}
+
+a::visited {
+   color: #FCD605; 
+}
+
+th.txt-right {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+}
+
+.left-columm {
+    width: 20%;
+}
+
+.right-columm {
+    width: 80%;
+    text-align: center;
+}
+
+ul {
+ list-style-type: circle;  
+}

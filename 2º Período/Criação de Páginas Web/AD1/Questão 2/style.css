@@ -1,0 +1,200 @@
+body {
+background-color: #377254;
+color: #FCD605;
+font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color:  #FFFF33;
+}
+
+a::visited {
+    color: #F3EDA3;
+}
+
+ol, ul {
+    line-height: 200%;
+}
+
+nav ul {
+    color: #F3EDA3;
+    list-style-type: circle;
+}
+
+.ender address {
+    text-align: right;
+    font-size: 16px;
+    line-height: 150%;
+    float: right;
+}
+
+.apres {
+    text-align: center;
+}
+
+header { 
+    display: block; 
+    margin-bottom: 1px; 
+    min-height: 50px;
+}
+
+nav {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+section {
+    display: block;
+    width: 77%;
+    float: right;
+}
+
+.imgLogo {
+    border-bottom: solid 3px;
+    margin-bottom:  6px;
+    padding-bottom: 15px;
+}
+
+.tabInfo {
+    border-collapse: collapse;
+    border: solid;
+    margin-top: 6px;
+    background-color: #FFFFBB;
+    color: #006600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabInfo td, th {
+    border: 2px solid #000000;
+    padding: 6px 12px 6px 12px;
+}
+
+.linTH {
+    color: #FFFFFF;
+    background-color: #0077bb;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colTH {
+    color: #006600;
+    background-color: #AACC55;
+    text-align: left;
+    font-weight: bold;
+}
+
+.preco {
+    color: #cc0000;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+fieldset {
+    margin: 20px 10px 0px 10px;
+}
+
+.fsEsq {
+    float: left;
+    margin: 0;
+    height: 60px;
+}
+
+.fsDir {
+    float: right;
+    margin: 0;
+    height: 60px;
+}
+
+div button {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.formLinha {
+    width: 470px;
+    margin-bottom: 6px;
+}
+
+.colPri {
+    float: left;
+    display: block;
+}
+
+.elemDir {
+    float: right;
+    display: block;
+}
+
+.inpGrande {
+    width: 370px;
+}
+
+.inpMedio {
+    width: 120px;
+}
+
+nunmDD {
+    width: 30px;
+}
+
+nunmQD {
+    width: 50px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+.right-input {
+    margin-left: 5px !important;
+}
+
+.right-label {
+    margin-left: 23px;
+}
+
+#telefone {
+    margin-left: 7px !important;
+    margin-right: 15px;
+}
+
+form {
+    width: 500px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mg-t-15 {
+    margin-top: 15px;
+}
+
+textarea {
+    width: 370px;
+    max-width: 370px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#lbEndereco {
+    float: left;
+}
+
+#dataNascimento {
+    margin-left: 5px;
+}
+
