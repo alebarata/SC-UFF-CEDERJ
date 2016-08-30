@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="ender">
+        <img src="imagens/LogoPequeno.png" class="imgLogo" alt="">
+        <address>
+            Avenida Volta Redonda, 906<br> Tel: (21) 1234-5678<br>
+            <a href="mailto:contato@boladavez.com.br">contato@boladavez.com.br</a>
+        </address>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Bolas.html">Bolas</a></li>
+            <li><a href="Esportes.html">Esportes</a></li>
+            <li><a href="Cadastro.html">Cadastro</a></li>
+            <li><a href="Compras.html">Compras</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="#">
+            Compras
+            <fieldset>
+                <legend>Identificação</legend>
+
+                <div class="linhaCompras">
+
+                    <label for="email">E-mail:</label>
+                    <input class="inpEmail" type="text" name="email" value="" placeholder="exemplo@cederj.com.br" id="email" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" value="" class="inpMedio mg-l-5" id="senha" placeholder="Senha" required>
+
+                </div>
+
+                <div class="mg-t-15 linhaCompras txt-italic">
+                    Se você ainda não têm cadastro clique <a href="Cadstro.html">Aqui</a>!
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lista de Compras e Pagamento</legend>
+
+                <div class=" fsEsqCompras">
+                    <label for="nome">Produtos:</label><br>
+                    <select>
+                        <optgroup label="Basquete">
+                            <option value="Bola-Basquete-Wilson">Bola-Basquete-Wilson</option>
+                        </optgroup>
+                        <optgroup label="Volei">
+                            <option value="Bola-Volei-Wilson">Bola-Volei-Wilson</option>
+                            <option value="Bola-Volei-Penalty">Bola-Volei-Penalty</option>
+                        </optgroup>
+                        <optgroup label="Tenis">
+                            <option value="Bola-Tenis-Wilson">Bola-Tenis-Wilson</option>
+                            <option value="Raquete-Tenis-Adams">Raquete-Tenis-Adams</option>
+                        </optgroup>
+                        <optgroup label="Futebol">
+                            <option value="Bola-Futebol-Penalty-Matis">Bola-Futebol-Penalty-Matis</option>
+                            <option value="Bola-Futebol-Penalty-Ultra">Bola-Futebol-Penalty-Ultra</option>
+                            <option value="Camisa-Futebol-Adidas-Alemanha">Camisa-Futebol-Adidas-Alemanha</option>
+                            <option value="Camisa-Futebol-Nike-Portugal">Camisa-Futebol-Nike-Portugal</option>
+                            <option value="Camisa-Futebol-Nike-Franca">Camisa-Futebol-Nike-França</option>
+                        </optgroup>
+                    </select>
+                    <button type="button">Comprar</button>
+
+                    <fieldset>
+                        <legend>Dados do Cartão</legend>
+                        <fieldset>
+                            <legend>Bandeira:</legend>
+                            <input type="radio" name="Cartao" value="Visa">Visa
+                            <input type="radio" name="Cartao" value="Master">Master
+                            <input type="radio" name="Cartao" value="Amex">Amex
+                        </fieldset>
+
+                        <div class="mg-t-5">
+                            <label for="dataValidade">Validade:</label>
+                            <input type="month" name="dataValidade" value="" id="dataNascimento" min="2016-01" max="2022-12"><br>
+                        </div>
+
+                        <div class="mg-t-15 numberCreditCar">
+                            <label for="numeroCartao">Número:&nbsp;</label>
+                            <input class="mg-l-5" type="text" name="numeroCartao" id="numeroCartao" pattern="[0-9]{5}" placeholder="Número do Cartão">
+                        </div>
+
+                    </fieldset>
+                </div>
+                <div class="fsDirCompras">
+                    <textarea class="textCompras" rows="" cols="" readonly></textarea><br>
+                    <label for="valor">Valor: R$</label>
+                    <input type="text" name="valor" value="" id="valor" class="inpPeq mg-l-5 mg-t-5" readonly>
+                </div>
+
+            </fieldset>
+
+            <div class="fsDir">
+                <button type="submit" value="Enviar">Enviar</button>
+                <button type="reset" valuye="Limpar">Limpar</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -172,7 +172,7 @@ input {
 }
 
 form {
-    width: 500px;
+    width: 600px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -198,3 +198,66 @@ textarea {
     margin-left: 5px;
 }
 
+.fsEsqCompras {
+    float: left;
+}
+
+.fsDirCompras {
+    float: right;
+}
+
+.linhaCompras {
+    width: 500px;
+    margin-bottom: 6px;
+}
+
+.colPriCompas {
+    float: left;
+    display: block;
+    width: 86px;
+}
+
+.inpEmail {
+    width: 200px;
+    margin-left: 5px;
+}
+
+.mg-l-5 {
+    margin-left: 5px;
+}
+
+.txt-italic {
+    font-style: italic;
+}
+
+select {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select optgroup {
+    font-style: italic;
+}
+
+select option {
+    font-style: normal;
+}
+
+.mg-t-5 {
+    margin-top: 5px;
+}
+
+.numberCreditCar input {
+    min-width: 77%;
+}
+
+.textCompras {
+    width: 90%;
+    height: 260px;
+}
+
+.inpPeq {
+    width: 80px;
+}

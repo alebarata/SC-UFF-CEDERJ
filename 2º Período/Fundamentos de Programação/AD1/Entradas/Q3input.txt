@@ -1,0 +1,12 @@
+2
+8 3
+fruta 10
+carboidrato 3
+fruta 101
+carboidrato 90
+verdura 2
+carboidrato 10
+carboidrato 86
+verdura 5
+1 1
+sobremesa 1
